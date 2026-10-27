@@ -42,7 +42,7 @@ function calculateVAT(price , vatPercentage){
 
 function checkStock(quantity){
      if (quantity > 0){
-        return 'In Stock'
+        return 'In stock'
     } else {
         return 'Out of stock'
     } 
@@ -73,7 +73,7 @@ function maxOfTwoNumbers(numA,numB){
 // Write your function here
 function isCharAVowel(char){ 
 
-    if (char === 'a' || char === 'i'
+    if (char === 'a' || char === 'e'
         || char === 'i' || char === 'o'
         || char === 'u') {
         return true 
@@ -96,7 +96,7 @@ function isCharAVowel(char){
 function maxOfThree(numA,numB,numC){
     if (numA >= numB && numA >= numC) {
         return numA
-    } else if (numB >= numB && numB >= numC) {
+    } else if (numB >= numA && numB >= numC) {
         return numB 
     } else {
         return numC
